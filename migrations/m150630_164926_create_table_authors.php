@@ -10,7 +10,7 @@ class m150630_164926_create_table_authors extends Migration
         $this->createTable('authors',[
             'id'=>Schema::TYPE_PK,
             'firstname'=>Schema::TYPE_STRING,
-            'firstname'=>Schema::TYPE_STRING,
+            'lastname'=>Schema::TYPE_STRING,
 
            ]);
 
